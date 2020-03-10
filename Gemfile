@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 gem 'faker'
+gem 'turbolinks'
 
 gem 'bootsnap', require: false
 gem 'devise'
