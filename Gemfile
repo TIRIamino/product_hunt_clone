@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.3'
+ruby '2.7.0'
 
 gem 'faker'
 gem 'turbolinks'
@@ -19,6 +19,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
@@ -26,6 +27,7 @@ end
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'rspec-rails'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
