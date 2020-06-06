@@ -271,7 +271,7 @@ DEPENDENCIES
   pry-byebug
   pry-rails
   puma
-  rails (= 6.0.2.1)
+  rails (~> 6.0.0)
   redis
   rspec-rails
   sassc-rails
@@ -285,7 +285,7 @@ DEPENDENCIES
   webpacker
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 2.6.6p146
 
 BUNDLED WITH
    2.1.4
